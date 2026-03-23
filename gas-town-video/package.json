@@ -1,0 +1,32 @@
+{
+  "name": "gas-town-video",
+  "version": "1.0.0",
+  "description": "Gas Town Video Project - A Remotion video composition",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "remotion studio",
+    "dev": "remotion studio",
+    "build": "remotion render GasTownVideo out/video.mp4",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "remotion",
+    "video",
+    "animation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@remotion/cli": "^4.0.436",
+    "remotion": "^4.0.436"
+  },
+  "remotion": {
+    "id": "gas-town-video",
+    "defaultComposition": "GasTownVideo"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "@types/react": "^19.2.14",
+    "typescript": "^5.9.3"
+  }
+}
