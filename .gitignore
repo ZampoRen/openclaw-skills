@@ -1,0 +1,13 @@
+# 敏感信息
+auth_codes.txt
+*.mp3
+*.jpg
+*.png
+
+# 系统文件
+.DS_Store
+.openclaw/
+
+# 临时文件
+*.tmp
+*.log
